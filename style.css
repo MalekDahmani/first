@@ -1,0 +1,423 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    width: 55%;
+   
+
+}
+
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+} 
+
+
+.navbar{
+    width: 100%;
+}
+
+
+.navbar li{
+    display: inline-block;
+    
+}
+
+ .navbar a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: gray;
+}
+
+.navbar a:hover{
+   color: #00ccb1;
+}
+
+#first{
+   
+    padding: 50px;
+}
+
+#first img{
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+}
+#first h1{
+    text-align: center;
+    color:#00ccb1 ;
+   margin-top: 50px;
+   margin-bottom: 60px;
+   font-size: 2.125rem;
+   font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+#first p {
+    color: 
+    #868686;
+}
+
+.col0{
+    margin: 0 -10px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    
+}
+
+.col1{
+    
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.col2{
+    
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#second{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#second .one{
+    background-color:#00ccb1 ;
+    color: white;
+    padding: 30px;
+    width: 331.63px;
+    height: 365px;
+    font-family: Work Sans,Arial,sans-serif;
+    border-radius: 10px;
+}
+
+#second .two{
+    background-color: #3d83df;
+    color: white;
+    padding: 30px;
+    width: 331.63px;
+    font-family: Work Sans,Arial,sans-serif;
+    border-radius: 10px;
+}
+#second .three{
+    background-color: #1b2734;
+    color: white;
+    padding: 30px;
+    width: 331.63px;
+    font-family: Work Sans,Arial,sans-serif;
+    border-radius: 10px;
+}
+#second .one h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#second .two h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#second .three h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#second .one h2{
+    font-size:1.5rem ;
+    
+}
+#second .two h2{
+    font-size:1.5rem ;
+    
+}
+#second .three h2{
+    font-size:1.5rem ;
+    
+}
+
+#second select{
+    position: relative;
+    top: 100px;
+}
+#third{
+    
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#third h1{
+    color: #00ccb1;
+    font-size: 24px;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    width: 70%;
+}
+#third li {
+    display: inline-block;
+}
+#third li a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #868686;
+    font-size: larger;
+}
+#third  a:hover{
+    
+    color: #00ccb1;
+}
+#fourth{
+    
+    padding-top: 50px;
+    padding-bottom: 20px;
+   
+    width: 100%;
+    background-color: #def7f6;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#fourth h1{
+    font-size: 34px;
+    font-weight: 300;
+    color: #00ccb1;
+    width: 300px;
+    height: 88.38;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+#fourth p{
+    margin-left: 20px;
+    width: 400px;
+    margin-top: 30px;
+
+}
+
+.leader  {
+    background-color: white;
+    
+}
+#fourth .appointement{
+    background-color: white;
+    position: relative;
+    bottom:30px;
+}
+
+#fourth .patient{
+background-color: white;
+
+}
+.doctor{
+    background-color: white;
+    position: relative;
+    bottom: 30px;
+}
+#fourth h3{
+    color: #00ccb1;
+    font-weight: 300;
+}
+#fourth .container{
+    
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-columns: 200px 200px;
+    grid-gap: 20px;
+    
+}
+
+#fourth .leader img{
+position: relative;
+top: 10px;
+left: 80px;
+
+}
+#fourth .leader h3{
+    font-size: 23px;
+    text-align: center;
+    padding-top: 30px;
+}
+#fourth .leader p{
+    font-size: 13px;
+    text-align: center;
+    width: 180px;
+    margin-left: 10px;
+    color: #868686;
+}
+
+#fourth .appointement{
+    
+}
+
+#fourth .appointement img{
+    position: relative;
+    top:10px;
+    left: 80px;
+}
+#fourth .appointement h3{
+    font-size: 23px;
+    
+    padding-top: 30px;
+    width: 150px;
+    text-align: center;
+    position: relative;
+    left: 30px;   
+}
+#fourth .appointement p{
+    font-size: 13px;
+    text-align: center;
+    width: 180px;
+    width: 200px;
+    position: relative;
+    right: 20px;
+    color: #868686;
+}
+
+
+#fourth .patient{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+#fourth .patient h3{
+    font-size: 23px;
+    
+    padding-top: 30px;
+    width: 150px;
+    text-align: center;
+    position: relative;
+    left: 30px;
+}
+#fourth .patient p{
+    font-size: 13px;
+    text-align: center;
+    width: 180px;
+    width: 200px;
+    position: relative;
+    right: 20px;
+    color: #868686;
+   
+}
+#fourth .patient img{
+    position: relative;
+    top:10px;
+    left: 80px;
+}
+
+#fourth .doctor img{
+    position: relative;
+    top:10px;
+    left: 80px;
+}
+#fourth .doctor h3{
+    font-size: 23px;
+    
+    padding-top: 30px;
+    width: 150px;
+    text-align: center;
+    position: relative;
+    left: 30px;
+}
+#fourth .doctor p{
+    font-size: 13px;
+    text-align: center;
+    width: 180px;
+    width: 200px;
+    position: relative;
+    right: 20px;
+    color: #868686;
+}
+
+#fifth{
+    
+    padding-top: 80px;
+   
+}
+
+#fifth h1{
+    color: #00ccb1;
+    font-size: 34px;
+    font-weight: 300;
+    width: 460px;
+    position: relative;
+    left: 35%;
+    
+}
+#fifth p{
+   
+    width: 460px;
+    text-align: center;
+    position: relative;
+    left: 30%;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+#countries{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-radius: 5px;
+}
+.country{
+    padding: 20px;
+}
+.country button{
+    color: white;
+    background-color: #3d83df;
+    position: relative;
+    left: 120px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: .725rem;
+    
+
+    
+}
+.country button:hover{
+    background-color: #3169b3;
+    
+
+    
+}
+
+#joinus{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#joinus h1{
+width: 520px;
+color: #333333;
+font-size: 30px;
+font-weight: 300;
+position: relative;
+left: 30%;
+}
+
+#joinus button{
+    position: relative;
+    left: 40%;
+    color: white;
+    background-color: #3d83df;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+}
+#joinus button:hover{
+    background-color:#3169b3 ;
+}
+
+
+footer p{
+    
+    width: 975px;
+    font-size: 12px;
+    text-align: center;
+    color: #868686;
+}
